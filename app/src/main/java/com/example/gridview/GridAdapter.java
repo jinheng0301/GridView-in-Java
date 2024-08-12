@@ -39,6 +39,10 @@ public class GridAdapter extends BaseAdapter {
         return 0;
     }
 
+    public long getItemId2(int position) {
+        return 0;
+    }
+
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.gridview_layout, parent, false);
